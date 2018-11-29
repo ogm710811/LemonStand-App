@@ -1,0 +1,39 @@
+# Created by https://www.gitignore.io/api/go
+# Edit at https://www.gitignore.io/?templates=go
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+### Go package and bin
+/vendor/
+/Godeps/
+/pkg/
+/bin/
+/src/github.com/acroca/
+/src/github.com/derekparker/
+/src/github.com/gopkg.in/
+/src/github.com/karrick/
+/src/github.com/mdempsky/
+/src/github.com/pkg/
+/src/github.com/ramya-rao-a/
+/src/github.com/sqs/
+/src/github.com/stamblerre/
+/src/github.com/uudashr/
+/src/github.com/zmb3/
+/src/golang.org/
+
+# Ignore application configuration
+/node_modules
+
+# End of https://www.gitignore.io/api/go
